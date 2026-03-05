@@ -20,7 +20,7 @@ int main()
     Zophia.setName("Zophia Horvath");
     Zophia.setTitle("Researcher");
     Zophia.setEducationLevel(Education.UNDERGRAD);
-    Zophia.setUniversity(Universities.atSalisbury);
+    Zophia.setUniversity(Universities.Salisbury);
     
     Zophia.addSkills(5,
             {
