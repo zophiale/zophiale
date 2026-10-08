@@ -30,7 +30,8 @@ int main()
             }
     );
 
-    Zophia.setDescription("Hi! I'm Zophia, an undergraduate at Salisbury University! I have been studying programming to varying degrees for the past 14 years.");
+    Zophia.setDescription("Hi! I'm Zophia, an undergraduate at Salisbury University!" +
+"I have been studying programming to varying degrees for the past 14 years.");
 
     Zophia.assignDiscord("archaezalia", 478945907748896792);
 
