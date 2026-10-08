@@ -18,13 +18,11 @@ int main()
     user Zophia = new user();
     
     Zophia.setName("Zophia Horvath");
-    Zophia.setTitle("Researcher");
-    Zophia.setEducationLevel(Education.UNDERGRAD);
+    Zophia.setEducationLevel(Education.UNDERGRAD.JUNIOR);
     Zophia.setUniversity(Universities.Salisbury);
     
-    Zophia.addSkills(5,
+    Zophia.addSkills(4,
             {
-                "Lifelong developer",
                 "Enjoys a good headscratcher",
                 "Sysadmin proficiency",
                 "Energetic",
@@ -32,10 +30,9 @@ int main()
             }
     );
 
-    Zophia.setDescription("Hi! I'm Zophia, an undergraduate at Salisbury University! I have been studying programming to varying degrees for the past 12 years.");
+    Zophia.setDescription("Hi! I'm Zophia, an undergraduate at Salisbury University! I have been studying programming to varying degrees for the past 14 years.");
 
     Zophia.assignDiscord("archaezalia", 478945907748896792);
-    Zophia.assignCommunity("Shadow Valley");
 
     printf("%s", Zophia.fancystr());
 
