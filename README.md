@@ -3,11 +3,11 @@
 ```cpp
 // ==!==!==!==!==!==!== //
 // Zophia Horvath       //
-// Undergrad Research   //
+// Undergrad Student    //
 // Created:             //
 // 03/04/2026           //
 // Updated:             //
-// Life                 //
+// 10/08/2026           //
 // ==!==!==!==!==!==!== //
 
 #include "user.h"
