@@ -40,3 +40,4 @@ int main()
     return 0;
 }
 ```
+![GitHub Stats Card](https://ghstats.dev/api/card?username=zophiale&theme=ayu)
