@@ -1,27 +1,25 @@
-# Zophia Horvath
-
 ```cpp
-// ==!==!==!==!==!==!== //
-// Zophia Horvath       //
-// Undergrad Student    //
-// Created:             //
-// 03/04/2026           //
-// Updated:             //
-// 10/08/2026           //
-// ==!==!==!==!==!==!== //
+// !==!==!==!==!==!==!==!==!==! //
+// Zophia-Monarch Horvath       //
+// Undergrad Student            //
+// Created:                     //
+// 03/04/2026                   //
+// Updated:                     //
+// 11/17/2026                   //
+// !==!==!==!==!==!==!==!==!==! //
 
 #include "user.h"
 
 int main()
 { 
 
-    user Zophia = new user();
+    user Zophia_Monarch = new user();
     
-    Zophia.setName("Zophia Horvath");
-    Zophia.setEducationLevel(Education.UNDERGRAD.JUNIOR);
-    Zophia.setUniversity(Universities.Salisbury);
+    Zophia_Monarch.setName("Zophia-Monarch Horvath");
+    Zophia_Monarch.setEducationLevel(Education.UNDERGRAD.JUNIOR);
+    Zophia_Monarch.setUniversity(Universities.Salisbury);
     
-    Zophia.addSkills(4,
+    Zophia_Monarch.addSkills(4,
             {
                 "Enjoys a good headscratcher",
                 "Sysadmin proficiency",
@@ -30,12 +28,12 @@ int main()
             }
     );
 
-    Zophia.setDescription("Hi! I'm Zophia, an undergraduate at Salisbury University!" +
+    Zophia_Monarch.setDescription("Hi! I'm Zophia, an undergraduate at Salisbury University!" +
 "I have been studying programming to varying degrees for the past 14 years.");
 
-    Zophia.assignDiscord("archaezalia", 478945907748896792);
+    Zophia_Monarch.assignDiscord("archaezalia", 478945907748896792);
 
-    printf("%s", Zophia.fancystr());
+    printf("%s", Zophia_Monarch.fancystr());
 
     return 0;
 }
